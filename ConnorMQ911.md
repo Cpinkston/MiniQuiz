@@ -8,7 +8,7 @@
 		self.n += 1
 		while prime == False:
 			for x in range(2, self.n-1):
-				if self.n % x == 0
+				if self.n % x == 0:
 					self.n += 1
 					continue
 			prime = True 
