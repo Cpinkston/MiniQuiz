@@ -17,35 +17,35 @@
 
 ##Quetion 2
 
-<pre><code>class Animal(Object):
-	population = 0
+<pre><code>class Animal():
+    population = 0
 
-	def __init__(self, age = 0):
-		self.age = age
-		Animal.population += 1
+    def __init__(self, age = 0):
+        self.age = age
+        Animal.population += 1
 
-	def eat():
-		print "The animal ate"
+    def eat():
+        print "The animal ate"
 
 class Dog(Animal):
-	def __init__(self, age = 0, name):
-		Animal.__init__(self, age):
-		self.name = name
+    def __init__(self, age = 0, name):
+        Animal.__init__(self, age = 0)
+        self.name = name
 
-	def walk():
-		print self.name " walked forward."
+    def walk():
+        print self.name  + " walked forward."
 
-	def speak():
-		pring "Bark!"
+    def speak():
+        print "Bark!"
 
 class Snake(Animal):
-	def __init__(self, age = 0)
-		Animal.__init__(self, age)
+    def __init__(self, age = 0):
+        Animal.__init__(self, age)
 
-	def eat():
-		print "The snake unhinged its jaw."
+    def eat():
+        print "The snake unhinged its jaw."
 
-	def hiss():
-		print "Ssssss!"
+    def hiss():
+        print "Ssssss!"
 </code> </pre>
 
